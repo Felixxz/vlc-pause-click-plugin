@@ -1,0 +1,42 @@
+object 049fa152969579a55c1bbba97f1771ae30d30062
+type commit
+tag 2.2.0
+tagger Maxim Biro <nurupo.contributions@gmail.com> 1589936825 -0400
+
+2.2.0
+
+Added:
+
+- An option to force a custom double click interval, ignoring the OS
+  setting. Useful for making fullscreen's double click time window
+  shorter or longer. Fixes #64.
+
+Changed:
+
+- Improved the settings page under "Video -> Filters -> Pause click".
+  Names of some options were changed to better reflect what they do,
+  e.g. "Ignore double clicks" -> "Prevent pause/play from triggering on
+  double click". The options are also grouped by a common theme now.
+
+Fixed:
+
+- The "Ignore double clicks" option now forces the custom double click
+  interval on the fullscreen toggle, fixing the issue of having to guess
+  fullscreen's double click interval, which caused this option to
+  misbehave when under-guessed.
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEUsRc1iyynE7W95nAqzrZiWRyv6QFAl7Egs8ACgkQqzrZiWRy
+v6QlxBAA4WLEhAGmf6jV6Op+BxJATOQO4qBo+TKABCoQVsrVuFJk2+ZF/5XcElQU
+w2hNVWOc8aF350MxrUpSrkvYm0TPbQ2X3guqiOj0RIl7K0LW/otfB/klgX7ro/ec
+9fHwCMMoaJx2Oq9nAMr1DetRsAGmaw68d8Ib/ru52HxSJ0HY3N5Ns0YBsfv6XHPA
+Npzcdd+etasDmM+MK8sm/jSmDqSSYzMMbLvfaek5o54KL2bVJM5kPIXP/3qBJJFW
+ucrPQVQHW0BuJkWrRBozsXXKA56mZMb6ThmpQOoqao/ld9mVSqsC516H39LDAuiM
+DXcAs/L6XozCL7wluwgz0T9wkqo6NaWkArS1LeqXJbow6E/w6fw+7EOlBm6RT6vt
+3tywrKTldeJYHVD52o5lqSnmrftqVwTo9dgFnGFr97JJ06L923Q9FnpKdGjGuX35
+JvfGhkTnzvbbst07KQgDmLjZpYu3SU5bqEDJrsMvtH6jJA1/j4JrqhUbvbN8kOqK
+1kMWF5RWaGSYqDNPq0LnAmsk2Rj0iHP5q+KyK+4m0y0hOKnu5tkWpKd6Ngsx+udC
+IPrfktKH2Mzct93ISkH5fN3aeESJq4LTrZIKBENcObo/v6YvZWQi6VCKL98iA37f
+X9cXxeXDSpZWen6nR9SpnpL6jv2i73IQac1fjMNE+7nC7/ABSLA=
+=3LFo
+-----END PGP SIGNATURE-----
